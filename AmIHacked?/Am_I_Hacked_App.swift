@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Am_I_Hacked_App: App {
+struct AmIHacked: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

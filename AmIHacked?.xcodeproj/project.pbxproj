@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */; };
-		D15F7E0828CE2811009CB6AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* ContentView.swift */; };
+		D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* MainView.swift */; };
 		D15F7E0A28CE2814009CB6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0928CE2814009CB6AD /* Assets.xcassets */; };
 		D15F7E0D28CE2814009CB6AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D15F7E0228CE2810009CB6AD /* Am I Hacked?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Am I Hacked?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15F7E0228CE2810009CB6AD /* AmIHacked?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmIHacked?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Am_I_Hacked_App.swift; sourceTree = "<group>"; };
-		D15F7E0728CE2811009CB6AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D15F7E0728CE2811009CB6AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D15F7E0928CE2814009CB6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,7 +35,7 @@
 		D15F7DF928CE2810009CB6AD = {
 			isa = PBXGroup;
 			children = (
-				D15F7E0428CE2811009CB6AD /* Am I Hacked? */,
+				D15F7E0428CE2811009CB6AD /* AmIHacked? */,
 				D15F7E0328CE2810009CB6AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		D15F7E0328CE2810009CB6AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D15F7E0228CE2810009CB6AD /* Am I Hacked?.app */,
+				D15F7E0228CE2810009CB6AD /* AmIHacked?.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D15F7E0428CE2811009CB6AD /* Am I Hacked? */ = {
+		D15F7E0428CE2811009CB6AD /* AmIHacked? */ = {
 			isa = PBXGroup;
 			children = (
 				D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */,
-				D15F7E0728CE2811009CB6AD /* ContentView.swift */,
+				D15F7E0728CE2811009CB6AD /* MainView.swift */,
 				D15F7E0928CE2814009CB6AD /* Assets.xcassets */,
 				D15F7E0B28CE2814009CB6AD /* Preview Content */,
 			);
-			path = "Am I Hacked?";
+			path = "AmIHacked?";
 			sourceTree = "<group>";
 		};
 		D15F7E0B28CE2814009CB6AD /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D15F7E0128CE2810009CB6AD /* Am I Hacked? */ = {
+		D15F7E0128CE2810009CB6AD /* AmIHacked? */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D15F7E1028CE2814009CB6AD /* Build configuration list for PBXNativeTarget "Am I Hacked?" */;
+			buildConfigurationList = D15F7E1028CE2814009CB6AD /* Build configuration list for PBXNativeTarget "AmIHacked?" */;
 			buildPhases = (
 				D15F7DFE28CE2810009CB6AD /* Sources */,
 				D15F7DFF28CE2810009CB6AD /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Am I Hacked?";
+			name = "AmIHacked?";
 			productName = "Am I Hacked?";
-			productReference = D15F7E0228CE2810009CB6AD /* Am I Hacked?.app */;
+			productReference = D15F7E0228CE2810009CB6AD /* AmIHacked?.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D15F7DFD28CE2810009CB6AD /* Build configuration list for PBXProject "Am I Hacked?" */;
+			buildConfigurationList = D15F7DFD28CE2810009CB6AD /* Build configuration list for PBXProject "AmIHacked?" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D15F7E0128CE2810009CB6AD /* Am I Hacked? */,
+				D15F7E0128CE2810009CB6AD /* AmIHacked? */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15F7E0828CE2811009CB6AD /* ContentView.swift in Sources */,
+				D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */,
 				D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,14 +266,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Am I Hacked?/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AmIHacked?/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,14 +294,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Am I Hacked?/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AmIHacked?/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D15F7DFD28CE2810009CB6AD /* Build configuration list for PBXProject "Am I Hacked?" */ = {
+		D15F7DFD28CE2810009CB6AD /* Build configuration list for PBXProject "AmIHacked?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D15F7E0E28CE2814009CB6AD /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D15F7E1028CE2814009CB6AD /* Build configuration list for PBXNativeTarget "Am I Hacked?" */ = {
+		D15F7E1028CE2814009CB6AD /* Build configuration list for PBXNativeTarget "AmIHacked?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D15F7E1128CE2814009CB6AD /* Debug */,
