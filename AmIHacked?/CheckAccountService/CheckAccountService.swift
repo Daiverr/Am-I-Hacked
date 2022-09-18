@@ -8,5 +8,5 @@
 import Foundation
 
 protocol CheckAccountService {
-    func send(account: String) async throws -> [BreachModel]
+    func send(email: String) async throws -> [BreachModel]
 }
