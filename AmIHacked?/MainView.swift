@@ -9,7 +9,8 @@ import SwiftUI
 
 enum Const {
     enum Colors {
-        static let title = Color(red: 0.227, green: 0.247, blue: 0.278)
+        static let background = Color(red: 0.933, green: 0.933, blue: 0.933)
+        static let text = Color(red: 0.227, green: 0.247, blue: 0.278)
         static let search = Color(red: 0.839, green: 0.89, blue: 0.886)
         static let glass = Color(red: 0.533, green: 0.569, blue: 0.584)
     }
@@ -23,13 +24,16 @@ struct MainView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
             Text("Am I Hacked?")
-                .setLarge()
-                .padding(.vertical)
+                .setLarge(.largeTitle)
+                .padding(.vertical, 10)
+            Text("Check if your email is in a data breach")
+                .setLarge(.subheadline)
             ZStack(alignment: .trailing) {
                 TextField(
                     "email",
                     text: $searchText
                 )
+                .foregroundColor(Const.Colors.text)
                 .padding()
                 .frame(height: 56)
                 .background(Const.Colors.search)
@@ -44,9 +48,8 @@ struct MainView: View {
             }
             
             Text("all breaches")
-                .font(.title)
-                .bold()
-                .foregroundColor(Const.Colors.title)
+                .setLarge(.title)
+                .padding(.vertical)
             
             ScrollView{
                 LazyVStack {
@@ -55,18 +58,17 @@ struct MainView: View {
                     }
                 }
             }
-            
-            //Spacer()
         }
-        .padding(30)
+        .padding([.horizontal, .top], 30)
+        .background(Const.Colors.background, ignoresSafeAreaEdges: .all)
     }
 }
 
 extension Text {
-    func setLarge() -> Text {
-        self.font(.largeTitle)
+    func setLarge(_ font: Font) -> Text {
+        self.font(font)
             .bold()
-            .foregroundColor(Const.Colors.title)
+            .foregroundColor(Const.Colors.text)
     }
     
 }
@@ -98,7 +100,7 @@ struct CardView: View {
 //                .frame(width: 250, height: 200)
 //                .padding(.bottom, 20)
         }
-        .background(Const.Colors.title)
+        .background(Const.Colors.text)
         .cornerRadius(16)
         .frame(width: 138, height: 160)
     }
