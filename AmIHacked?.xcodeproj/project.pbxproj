@@ -11,6 +11,8 @@
 		D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* MainView.swift */; };
 		D15F7E0A28CE2814009CB6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0928CE2814009CB6AD /* Assets.xcassets */; };
 		D15F7E0D28CE2814009CB6AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */; };
+		D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */; };
+		D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D15F7E0728CE2811009CB6AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D15F7E0928CE2814009CB6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAccountService.swift; sourceTree = "<group>"; };
+		D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreachModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		D15F7E0428CE2811009CB6AD /* AmIHacked? */ = {
 			isa = PBXGroup;
 			children = (
+				D15F7E1428CF4CFE009CB6AD /* CheckAccountService */,
+				D15F7E1328CF4574009CB6AD /* Models */,
 				D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */,
 				D15F7E0728CE2811009CB6AD /* MainView.swift */,
 				D15F7E0928CE2814009CB6AD /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D15F7E1328CF4574009CB6AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D15F7E1428CF4CFE009CB6AD /* CheckAccountService */ = {
+			isa = PBXGroup;
+			children = (
+				D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */,
+			);
+			path = CheckAccountService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */,
+				D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */,
+				D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */,
 				D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
