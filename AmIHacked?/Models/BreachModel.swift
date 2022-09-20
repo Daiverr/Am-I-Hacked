@@ -39,3 +39,12 @@ struct BreachModel: Decodable {
     /// A URI that specifies where a logo for the breached service can be found. Logos are always in PNG format.
     let logoPath: String
 }
+
+//extension BreachModel: Identifiable {
+//    typealias ID = String
+//    var id: ObjectIdentifier {
+//        ObjectIdentifier(self.name as ID)
+//    }
+//    
+//    
+//}
