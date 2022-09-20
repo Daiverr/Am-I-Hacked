@@ -13,6 +13,9 @@
 		D15F7E0D28CE2814009CB6AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */; };
 		D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */; };
 		D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */; };
+		D17D5B2328D87674009E98DF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2228D87674009E98DF /* Color.swift */; };
+		D17D5B2528D876CA009E98DF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2428D876CA009E98DF /* Text.swift */; };
+		D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2628D87C39009E98DF /* CGFloat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAccountService.swift; sourceTree = "<group>"; };
 		D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreachModel.swift; sourceTree = "<group>"; };
+		D17D5B2228D87674009E98DF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D17D5B2428D876CA009E98DF /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		D17D5B2628D87C39009E98DF /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		D15F7E0428CE2811009CB6AD /* AmIHacked? */ = {
 			isa = PBXGroup;
 			children = (
+				D17D5B2128D87665009E98DF /* Extensions */,
 				D15F7E1428CF4CFE009CB6AD /* CheckAccountService */,
 				D15F7E1328CF4574009CB6AD /* Models */,
 				D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */,
@@ -87,6 +94,16 @@
 				D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */,
 			);
 			path = CheckAccountService;
+			sourceTree = "<group>";
+		};
+		D17D5B2128D87665009E98DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D17D5B2228D87674009E98DF /* Color.swift */,
+				D17D5B2428D876CA009E98DF /* Text.swift */,
+				D17D5B2628D87C39009E98DF /* CGFloat.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +178,10 @@
 			files = (
 				D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */,
 				D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */,
+				D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */,
 				D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */,
+				D17D5B2328D87674009E98DF /* Color.swift in Sources */,
+				D17D5B2528D876CA009E98DF /* Text.swift in Sources */,
 				D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +347,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
