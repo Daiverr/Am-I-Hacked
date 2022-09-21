@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */; };
-		D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* MainView.swift */; };
+		D15F7E0828CE2811009CB6AD /* HackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* HackedView.swift */; };
 		D15F7E0A28CE2814009CB6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0928CE2814009CB6AD /* Assets.xcassets */; };
 		D15F7E0D28CE2814009CB6AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */; };
 		D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */; };
 		D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */; };
+		D160268228DB1017001F9C6E /* HackedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268128DB1017001F9C6E /* HackedViewModel.swift */; };
+		D160268628DB4A36001F9C6E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D160268528DB4A36001F9C6E /* Kingfisher */; };
+		D160268828DB4AA5001F9C6E /* PwndInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268728DB4AA5001F9C6E /* PwndInfoService.swift */; };
+		D160268A28DB4F58001F9C6E /* PwndInfoServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */; };
 		D17D5B2328D87674009E98DF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2228D87674009E98DF /* Color.swift */; };
 		D17D5B2528D876CA009E98DF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2428D876CA009E98DF /* Text.swift */; };
 		D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2628D87C39009E98DF /* CGFloat.swift */; };
@@ -21,11 +25,14 @@
 /* Begin PBXFileReference section */
 		D15F7E0228CE2810009CB6AD /* AmIHacked?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmIHacked?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Am_I_Hacked_App.swift; sourceTree = "<group>"; };
-		D15F7E0728CE2811009CB6AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D15F7E0728CE2811009CB6AD /* HackedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedView.swift; sourceTree = "<group>"; };
 		D15F7E0928CE2814009CB6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAccountService.swift; sourceTree = "<group>"; };
 		D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreachModel.swift; sourceTree = "<group>"; };
+		D160268128DB1017001F9C6E /* HackedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedViewModel.swift; sourceTree = "<group>"; };
+		D160268728DB4AA5001F9C6E /* PwndInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwndInfoService.swift; sourceTree = "<group>"; };
+		D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwndInfoServiceImpl.swift; sourceTree = "<group>"; };
 		D17D5B2228D87674009E98DF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D17D5B2428D876CA009E98DF /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		D17D5B2628D87C39009E98DF /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D160268628DB4A36001F9C6E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +69,13 @@
 		D15F7E0428CE2811009CB6AD /* AmIHacked? */ = {
 			isa = PBXGroup;
 			children = (
+				D160268328DB480D001F9C6E /* Service */,
 				D17D5B2128D87665009E98DF /* Extensions */,
 				D15F7E1428CF4CFE009CB6AD /* CheckAccountService */,
 				D15F7E1328CF4574009CB6AD /* Models */,
 				D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */,
-				D15F7E0728CE2811009CB6AD /* MainView.swift */,
+				D15F7E0728CE2811009CB6AD /* HackedView.swift */,
+				D160268128DB1017001F9C6E /* HackedViewModel.swift */,
 				D15F7E0928CE2814009CB6AD /* Assets.xcassets */,
 				D15F7E0B28CE2814009CB6AD /* Preview Content */,
 			);
@@ -96,6 +106,15 @@
 			path = CheckAccountService;
 			sourceTree = "<group>";
 		};
+		D160268328DB480D001F9C6E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D160268728DB4AA5001F9C6E /* PwndInfoService.swift */,
+				D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		D17D5B2128D87665009E98DF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +141,9 @@
 			dependencies = (
 			);
 			name = "AmIHacked?";
+			packageProductDependencies = (
+				D160268528DB4A36001F9C6E /* Kingfisher */,
+			);
 			productName = "Am I Hacked?";
 			productReference = D15F7E0228CE2810009CB6AD /* AmIHacked?.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +172,9 @@
 				Base,
 			);
 			mainGroup = D15F7DF928CE2810009CB6AD;
+			packageReferences = (
+				D160268428DB4A36001F9C6E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D15F7E0328CE2810009CB6AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,10 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15F7E0828CE2811009CB6AD /* MainView.swift in Sources */,
+				D15F7E0828CE2811009CB6AD /* HackedView.swift in Sources */,
+				D160268828DB4AA5001F9C6E /* PwndInfoService.swift in Sources */,
 				D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */,
 				D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */,
+				D160268A28DB4F58001F9C6E /* PwndInfoServiceImpl.swift in Sources */,
 				D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */,
+				D160268228DB1017001F9C6E /* HackedViewModel.swift in Sources */,
 				D17D5B2328D87674009E98DF /* Color.swift in Sources */,
 				D17D5B2528D876CA009E98DF /* Text.swift in Sources */,
 				D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */,
@@ -383,6 +411,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D160268428DB4A36001F9C6E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D160268528DB4A36001F9C6E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D160268428DB4A36001F9C6E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D15F7DFA28CE2810009CB6AD /* Project object */;
 }
