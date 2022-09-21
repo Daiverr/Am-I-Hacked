@@ -11,7 +11,7 @@ import SwiftUI
 struct AmIHacked: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            HackedView()
         }
     }
 }
