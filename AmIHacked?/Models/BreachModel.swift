@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct BreachModel: Decodable {
+struct BreachModel: Decodable, Identifiable, Equatable {
+    var id = UUID()
     /// A Pascal-cased name representing the breach which is unique across all other breaches. This value never changes and may be used to name dependent assets (such as images) but should not be shown directly to end users (see the "Title" attribute instead).
     let name: String
     /// A descriptive title for the breach suitable for displaying to end users. It's unique across all breaches but individual values may change in the future (i.e. if another breach occurs against an organisation already in the system). If a stable value is required to reference the breach, refer to the "Name" attribute instead.
@@ -38,13 +39,22 @@ struct BreachModel: Decodable {
     let isSpamList: Bool
     /// A URI that specifies where a logo for the breached service can be found. Logos are always in PNG format.
     let logoPath: String
+    
+    enum CodingKeys: String, CodingKey {
+        case name = "Name"
+        case title = "Title"
+        case domain = "Domain"
+        case breachData = "BreachDate"
+        case addedData = "AddedDate"
+        case modifiedDate = "ModifiedDate"
+        case pwnCount = "PwnCount"
+        case description = "Description"
+        case dataClasses = "DataClasses"
+        case isVerified = "IsVerified"
+        case isFabricated = "IsFabricated"
+        case isSensitive = "IsSensitive"
+        case isRetired = "IsRetired"
+        case isSpamList = "IsSpamList"
+        case logoPath = "LogoPath"
+    }
 }
-
-//extension BreachModel: Identifiable {
-//    typealias ID = String
-//    var id: ObjectIdentifier {
-//        ObjectIdentifier(self.name as ID)
-//    }
-//    
-//    
-//}

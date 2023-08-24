@@ -8,9 +8,8 @@
 import Foundation
 import SwiftUI
 
-protocol ApiService {
+protocol IPwndInfoService {
     func perform(url: Service, account: String) async throws-> [BreachModel]
-    //func loadImage(url: String) async -> Image
 }
 
 enum Service: String {

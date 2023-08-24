@@ -8,34 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */; };
-		D15F7E0828CE2811009CB6AD /* HackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* HackedView.swift */; };
+		D15F7E0828CE2811009CB6AD /* HackedMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* HackedMainView.swift */; };
 		D15F7E0A28CE2814009CB6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0928CE2814009CB6AD /* Assets.xcassets */; };
 		D15F7E0D28CE2814009CB6AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */; };
 		D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */; };
 		D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */; };
-		D160268228DB1017001F9C6E /* HackedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268128DB1017001F9C6E /* HackedViewModel.swift */; };
+		D160268228DB1017001F9C6E /* HackedMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268128DB1017001F9C6E /* HackedMainViewModel.swift */; };
 		D160268628DB4A36001F9C6E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D160268528DB4A36001F9C6E /* Kingfisher */; };
 		D160268828DB4AA5001F9C6E /* PwndInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268728DB4AA5001F9C6E /* PwndInfoService.swift */; };
 		D160268A28DB4F58001F9C6E /* PwndInfoServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */; };
 		D17D5B2328D87674009E98DF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2228D87674009E98DF /* Color.swift */; };
 		D17D5B2528D876CA009E98DF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2428D876CA009E98DF /* Text.swift */; };
 		D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5B2628D87C39009E98DF /* CGFloat.swift */; };
+		D17F01662A96154700533FCB /* HackedMainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F01652A96154700533FCB /* HackedMainAssembly.swift */; };
+		D17F016D2A9635FB00533FCB /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F016C2A9635FB00533FCB /* ImageService.swift */; };
+		D17F016F2A9652F400533FCB /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F016E2A9652F400533FCB /* Image.swift */; };
+		D17F01712A9679EF00533FCB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17F01702A9679EF00533FCB /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D15F7E0228CE2810009CB6AD /* AmIHacked?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmIHacked?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Am_I_Hacked_App.swift; sourceTree = "<group>"; };
-		D15F7E0728CE2811009CB6AD /* HackedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedView.swift; sourceTree = "<group>"; };
+		D15F7E0728CE2811009CB6AD /* HackedMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedMainView.swift; sourceTree = "<group>"; };
 		D15F7E0928CE2814009CB6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15F7E0C28CE2814009CB6AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D15F7E1528CF4D20009CB6AD /* CheckAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAccountService.swift; sourceTree = "<group>"; };
 		D15F7E1728CF4DFE009CB6AD /* BreachModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreachModel.swift; sourceTree = "<group>"; };
-		D160268128DB1017001F9C6E /* HackedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedViewModel.swift; sourceTree = "<group>"; };
+		D160268128DB1017001F9C6E /* HackedMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedMainViewModel.swift; sourceTree = "<group>"; };
 		D160268728DB4AA5001F9C6E /* PwndInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwndInfoService.swift; sourceTree = "<group>"; };
 		D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwndInfoServiceImpl.swift; sourceTree = "<group>"; };
 		D17D5B2228D87674009E98DF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D17D5B2428D876CA009E98DF /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		D17D5B2628D87C39009E98DF /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		D17F01652A96154700533FCB /* HackedMainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedMainAssembly.swift; sourceTree = "<group>"; };
+		D17F016C2A9635FB00533FCB /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		D17F016E2A9652F400533FCB /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		D17F01702A9679EF00533FCB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +77,11 @@
 		D15F7E0428CE2811009CB6AD /* AmIHacked? */ = {
 			isa = PBXGroup;
 			children = (
-				D160268328DB480D001F9C6E /* Service */,
+				D17F01632A9611CB00533FCB /* UserStories */,
+				D160268328DB480D001F9C6E /* Services */,
 				D17D5B2128D87665009E98DF /* Extensions */,
-				D15F7E1428CF4CFE009CB6AD /* CheckAccountService */,
 				D15F7E1328CF4574009CB6AD /* Models */,
 				D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */,
-				D15F7E0728CE2811009CB6AD /* HackedView.swift */,
-				D160268128DB1017001F9C6E /* HackedViewModel.swift */,
 				D15F7E0928CE2814009CB6AD /* Assets.xcassets */,
 				D15F7E0B28CE2814009CB6AD /* Preview Content */,
 			);
@@ -106,13 +112,14 @@
 			path = CheckAccountService;
 			sourceTree = "<group>";
 		};
-		D160268328DB480D001F9C6E /* Service */ = {
+		D160268328DB480D001F9C6E /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				D160268728DB4AA5001F9C6E /* PwndInfoService.swift */,
-				D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */,
+				D15F7E1428CF4CFE009CB6AD /* CheckAccountService */,
+				D17F01682A9617FA00533FCB /* ImageService */,
+				D17F01672A9617DF00533FCB /* PwndIndoService */,
 			);
-			path = Service;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		D17D5B2128D87665009E98DF /* Extensions */ = {
@@ -121,8 +128,45 @@
 				D17D5B2228D87674009E98DF /* Color.swift */,
 				D17D5B2428D876CA009E98DF /* Text.swift */,
 				D17D5B2628D87C39009E98DF /* CGFloat.swift */,
+				D17F016E2A9652F400533FCB /* Image.swift */,
+				D17F01702A9679EF00533FCB /* String.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D17F01632A9611CB00533FCB /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				D17F01642A9611E300533FCB /* HackedMain */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		D17F01642A9611E300533FCB /* HackedMain */ = {
+			isa = PBXGroup;
+			children = (
+				D15F7E0728CE2811009CB6AD /* HackedMainView.swift */,
+				D160268128DB1017001F9C6E /* HackedMainViewModel.swift */,
+				D17F01652A96154700533FCB /* HackedMainAssembly.swift */,
+			);
+			path = HackedMain;
+			sourceTree = "<group>";
+		};
+		D17F01672A9617DF00533FCB /* PwndIndoService */ = {
+			isa = PBXGroup;
+			children = (
+				D160268728DB4AA5001F9C6E /* PwndInfoService.swift */,
+				D160268928DB4F58001F9C6E /* PwndInfoServiceImpl.swift */,
+			);
+			path = PwndIndoService;
+			sourceTree = "<group>";
+		};
+		D17F01682A9617FA00533FCB /* ImageService */ = {
+			isa = PBXGroup;
+			children = (
+				D17F016C2A9635FB00533FCB /* ImageService.swift */,
+			);
+			path = ImageService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +214,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = D15F7DF928CE2810009CB6AD;
 			packageReferences = (
@@ -201,14 +246,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15F7E0828CE2811009CB6AD /* HackedView.swift in Sources */,
+				D15F7E0828CE2811009CB6AD /* HackedMainView.swift in Sources */,
 				D160268828DB4AA5001F9C6E /* PwndInfoService.swift in Sources */,
 				D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */,
 				D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */,
+				D17F01712A9679EF00533FCB /* String.swift in Sources */,
 				D160268A28DB4F58001F9C6E /* PwndInfoServiceImpl.swift in Sources */,
+				D17F016D2A9635FB00533FCB /* ImageService.swift in Sources */,
+				D17F016F2A9652F400533FCB /* Image.swift in Sources */,
 				D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */,
-				D160268228DB1017001F9C6E /* HackedViewModel.swift in Sources */,
+				D160268228DB1017001F9C6E /* HackedMainViewModel.swift in Sources */,
 				D17D5B2328D87674009E98DF /* Color.swift in Sources */,
+				D17F01662A96154700533FCB /* HackedMainAssembly.swift in Sources */,
 				D17D5B2528D876CA009E98DF /* Text.swift in Sources */,
 				D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */,
 			);
@@ -267,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -321,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +395,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +424,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
