@@ -25,9 +25,6 @@ final class HackedMainViewModel: ObservableObject {
         do {
             let response = try await pwndService.perform(url: .account, account: account)
             await MainActor.run { breachs = response }
-            response.forEach { breach in
-                print(breach.description)
-            }
         } catch {
             print(error)
         }

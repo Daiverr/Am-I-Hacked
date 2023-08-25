@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10DEDA12A976531003965F3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DEDA02A976531003965F3 /* CardView.swift */; };
+		D10DEDA32A977A40003965F3 /* InputFieldEmailStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DEDA22A977A40003965F3 /* InputFieldEmailStyle.swift */; };
+		D10DEDA52A979D7A003965F3 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DEDA42A979D7A003965F3 /* CardDetailView.swift */; };
+		D10DEDAA2A97BA0A003965F3 /* SwiftyTranslate in Frameworks */ = {isa = PBXBuildFile; productRef = D10DEDA92A97BA0A003965F3 /* SwiftyTranslate */; };
+		D10DEDAC2A97BAC6003965F3 /* SwiftyTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DEDAB2A97BAC6003965F3 /* SwiftyTranslate.swift */; };
+		D10DEDB02A97D39D003965F3 /* AsyncTranslateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10DEDAF2A97D39D003965F3 /* AsyncTranslateText.swift */; };
+		D14839A92A98A0A5002DB7CB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14839A82A98A0A5002DB7CB /* View.swift */; };
+		D14839AB2A98A111002DB7CB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14839AA2A98A111002DB7CB /* Date.swift */; };
 		D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */; };
 		D15F7E0828CE2811009CB6AD /* HackedMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15F7E0728CE2811009CB6AD /* HackedMainView.swift */; };
 		D15F7E0A28CE2814009CB6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15F7E0928CE2814009CB6AD /* Assets.xcassets */; };
@@ -27,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D10DEDA02A976531003965F3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D10DEDA22A977A40003965F3 /* InputFieldEmailStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldEmailStyle.swift; sourceTree = "<group>"; };
+		D10DEDA42A979D7A003965F3 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		D10DEDAB2A97BAC6003965F3 /* SwiftyTranslate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyTranslate.swift; sourceTree = "<group>"; };
+		D10DEDAF2A97D39D003965F3 /* AsyncTranslateText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTranslateText.swift; sourceTree = "<group>"; };
+		D14839A82A98A0A5002DB7CB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D14839AA2A98A111002DB7CB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		D15F7E0228CE2810009CB6AD /* AmIHacked?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmIHacked?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15F7E0528CE2811009CB6AD /* Am_I_Hacked_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Am_I_Hacked_App.swift; sourceTree = "<group>"; };
 		D15F7E0728CE2811009CB6AD /* HackedMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackedMainView.swift; sourceTree = "<group>"; };
@@ -52,12 +67,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D160268628DB4A36001F9C6E /* Kingfisher in Frameworks */,
+				D10DEDAA2A97BA0A003965F3 /* SwiftyTranslate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D10DED9F2A97650F003965F3 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				D10DEDA02A976531003965F3 /* CardView.swift */,
+				D10DEDA22A977A40003965F3 /* InputFieldEmailStyle.swift */,
+				D10DEDA42A979D7A003965F3 /* CardDetailView.swift */,
+				D10DEDAF2A97D39D003965F3 /* AsyncTranslateText.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		D15F7DF928CE2810009CB6AD = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +157,9 @@
 				D17D5B2628D87C39009E98DF /* CGFloat.swift */,
 				D17F016E2A9652F400533FCB /* Image.swift */,
 				D17F01702A9679EF00533FCB /* String.swift */,
+				D10DEDAB2A97BAC6003965F3 /* SwiftyTranslate.swift */,
+				D14839A82A98A0A5002DB7CB /* View.swift */,
+				D14839AA2A98A111002DB7CB /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -145,6 +175,7 @@
 		D17F01642A9611E300533FCB /* HackedMain */ = {
 			isa = PBXGroup;
 			children = (
+				D10DED9F2A97650F003965F3 /* SubViews */,
 				D15F7E0728CE2811009CB6AD /* HackedMainView.swift */,
 				D160268128DB1017001F9C6E /* HackedMainViewModel.swift */,
 				D17F01652A96154700533FCB /* HackedMainAssembly.swift */,
@@ -187,6 +218,7 @@
 			name = "AmIHacked?";
 			packageProductDependencies = (
 				D160268528DB4A36001F9C6E /* Kingfisher */,
+				D10DEDA92A97BA0A003965F3 /* SwiftyTranslate */,
 			);
 			productName = "Am I Hacked?";
 			productReference = D15F7E0228CE2810009CB6AD /* AmIHacked?.app */;
@@ -219,6 +251,7 @@
 			mainGroup = D15F7DF928CE2810009CB6AD;
 			packageReferences = (
 				D160268428DB4A36001F9C6E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D10DEDA82A97BA0A003965F3 /* XCRemoteSwiftPackageReference "SwiftyTranslate" */,
 			);
 			productRefGroup = D15F7E0328CE2810009CB6AD /* Products */;
 			projectDirPath = "";
@@ -246,19 +279,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10DEDAC2A97BAC6003965F3 /* SwiftyTranslate.swift in Sources */,
 				D15F7E0828CE2811009CB6AD /* HackedMainView.swift in Sources */,
 				D160268828DB4AA5001F9C6E /* PwndInfoService.swift in Sources */,
+				D10DEDA32A977A40003965F3 /* InputFieldEmailStyle.swift in Sources */,
 				D15F7E1628CF4D20009CB6AD /* CheckAccountService.swift in Sources */,
 				D17D5B2728D87C39009E98DF /* CGFloat.swift in Sources */,
+				D10DEDB02A97D39D003965F3 /* AsyncTranslateText.swift in Sources */,
+				D10DEDA12A976531003965F3 /* CardView.swift in Sources */,
 				D17F01712A9679EF00533FCB /* String.swift in Sources */,
 				D160268A28DB4F58001F9C6E /* PwndInfoServiceImpl.swift in Sources */,
 				D17F016D2A9635FB00533FCB /* ImageService.swift in Sources */,
 				D17F016F2A9652F400533FCB /* Image.swift in Sources */,
+				D14839A92A98A0A5002DB7CB /* View.swift in Sources */,
 				D15F7E1828CF4DFE009CB6AD /* BreachModel.swift in Sources */,
 				D160268228DB1017001F9C6E /* HackedMainViewModel.swift in Sources */,
 				D17D5B2328D87674009E98DF /* Color.swift in Sources */,
+				D14839AB2A98A111002DB7CB /* Date.swift in Sources */,
 				D17F01662A96154700533FCB /* HackedMainAssembly.swift in Sources */,
 				D17D5B2528D876CA009E98DF /* Text.swift in Sources */,
+				D10DEDA52A979D7A003965F3 /* CardDetailView.swift in Sources */,
 				D15F7E0628CE2811009CB6AD /* Am_I_Hacked_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AmIHacked?/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -417,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AmIHacked?/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,6 +504,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D10DEDA82A97BA0A003965F3 /* XCRemoteSwiftPackageReference "SwiftyTranslate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cpageler93/SwiftyTranslate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		D160268428DB4A36001F9C6E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -473,6 +523,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D10DEDA92A97BA0A003965F3 /* SwiftyTranslate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D10DEDA82A97BA0A003965F3 /* XCRemoteSwiftPackageReference "SwiftyTranslate" */;
+			productName = SwiftyTranslate;
+		};
 		D160268528DB4A36001F9C6E /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D160268428DB4A36001F9C6E /* XCRemoteSwiftPackageReference "Kingfisher" */;
