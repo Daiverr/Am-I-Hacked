@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    var withourHyperlinks: String {
+    var withoutHyperlinks: String {
         var modifiedString = self
             
         // Remove hyperlinks
@@ -21,4 +21,14 @@ extension String {
         
         return modifiedString
     }
+    
+    func toDate(_ dateFormatter: DateFormatter = Date.formatter, format: DateFormat = .dashedShort) -> Date? {
+            guard let self = self as? String else { return nil }
+            dateFormatter.dateFormat = format.rawValue
+            dateFormatter.calendar = Calendar(identifier: .iso8601)
+            dateFormatter.timeZone = TimeZone(identifier: "Europe/Moscow")
+            dateFormatter.locale = Locale.current
+            return dateFormatter.date(from: self)
+        }
+
 }

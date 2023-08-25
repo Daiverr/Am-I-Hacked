@@ -5,7 +5,7 @@
 //  Created by PROKHOROV Roman on 12.09.2022.
 //
 
-import Foundation
+import UIKit
 
 struct BreachModel: Decodable, Identifiable, Equatable {
     var id = UUID()
